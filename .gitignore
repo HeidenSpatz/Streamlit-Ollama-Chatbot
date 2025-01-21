@@ -120,6 +120,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.DS_STORE
+__pycache__
+**/__pycache__/
+.vscode
 .env
 .venv
 env/
